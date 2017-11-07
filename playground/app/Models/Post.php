@@ -1,8 +1,12 @@
-<?php namespace App\Models;
+<?php 
+
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-final class Post extends Model
+class Post extends Model
 {
+
+    protected $table = 'posts';
 
 }
